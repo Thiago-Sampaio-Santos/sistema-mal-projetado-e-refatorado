@@ -1,6 +1,5 @@
 package versao_inicial;
 
-// Gerencia usuários e tarefas, misturando responsabilidades.
 import java.util.ArrayList;
 import java.util.List;
 

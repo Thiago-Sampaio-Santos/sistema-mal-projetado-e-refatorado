@@ -1,10 +1,11 @@
 package versao_refatorada.service;
 
-// Serviço que encapsula a lógica de criação de usuários e tarefas.
+
 import versao_refatorada.model.Usuario;
 import versao_refatorada.model.Tarefa;
 import versao_refatorada.repository.TarefaRepository;
 
+// Serviço que encapsula a lógica de criação de usuários e tarefas.
 public class TarefaService {
     private TarefaRepository tarefaRepository;
 

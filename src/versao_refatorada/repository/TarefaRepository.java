@@ -1,11 +1,12 @@
 package versao_refatorada.repository;
 
-// Repositório que armazena usuários e permite manipular tarefas.
+
 import java.util.HashMap;
 import java.util.Map;
 import versao_refatorada.model.Usuario;
 import versao_refatorada.model.Tarefa;
 
+// Repositório que armazena usuários e permite manipular tarefas.
 public class TarefaRepository {
     private Map<String, Usuario> usuarios = new HashMap<>();
 

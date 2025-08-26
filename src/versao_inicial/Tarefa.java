@@ -1,6 +1,5 @@
 package versao_inicial;
 
-// Representa uma tarefa com título e descrição.
 public class Tarefa {
     public String titulo;
     public String descricao;

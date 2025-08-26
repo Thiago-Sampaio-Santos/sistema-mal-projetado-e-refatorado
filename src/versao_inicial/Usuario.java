@@ -1,6 +1,5 @@
 package versao_inicial;
 
-// Representa um usuário com nome, email, senha e lista de tarefas.
 import java.util.ArrayList;
 import java.util.List;
 

@@ -1,9 +1,10 @@
 package versao_refatorada.model;
 
-// Entidade que representa um usuário com dados pessoais e tarefas.
+
 import java.util.ArrayList;
 import java.util.List;
 
+// Entidade que representa um usuário com dados pessoais e tarefas.
 public class Usuario {
     private String nome;
     private String email;
