@@ -50,9 +50,11 @@ javac *.java
 
 # Execute o programa
 java App
+```
 
 ### Versão refatorada
 
+```bash
 # Acesse o diretório da versão refatorada
 cd src/versao_refatorada
 
@@ -66,6 +68,7 @@ javac injector/ServiceLocator.java \
 
 # Execute o programa
 java App
+```
 
 ---
 
