@@ -23,6 +23,7 @@ Gestão de Tarefas Simples/
 │   │   └─ diagrama_refatorado.png
 │   └─ relatorio_tecnico.pdf   # Relatório técnico do projeto
 └─ README.md                   # Este arquivo
+``` 
 
 ---
 
