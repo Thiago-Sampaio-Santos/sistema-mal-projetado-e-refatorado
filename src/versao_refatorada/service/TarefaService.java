@@ -1,15 +1,13 @@
 package versao_refatorada.service;
 
-
 import versao_refatorada.model.Usuario;
 import versao_refatorada.model.Tarefa;
-import versao_refatorada.repository.TarefaRepository;
+import versao_refatorada.repository.ITarefaRepository;
 
-// Serviço que encapsula a lógica de criação de usuários e tarefas.
 public class TarefaService {
-    private TarefaRepository tarefaRepository;
+    private ITarefaRepository tarefaRepository;
 
-    public TarefaService(TarefaRepository tarefaRepository) {
+    public TarefaService(ITarefaRepository tarefaRepository) {
         this.tarefaRepository = tarefaRepository;
     }
 
@@ -23,5 +21,9 @@ public class TarefaService {
 
     public void listarTarefas(String email) {
         tarefaRepository.listarTarefas(email);
+    }
+
+    public Usuario obterUsuario(String email) {
+        return tarefaRepository.buscarUsuarioPorEmail(email);
     }
 }

@@ -7,6 +7,9 @@ import versao_refatorada.model.Tarefa;
 
 public class App {
     public static void main(String[] args) throws Exception {
+
+        // Inicializa o Service Locator e suas dependências
+        ServiceLocator.init();
         TarefaService tarefaService = ServiceLocator.getTarefaService();
 
         // Criando usuários

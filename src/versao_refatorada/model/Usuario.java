@@ -12,6 +12,9 @@ public class Usuario {
     private List<Tarefa> tarefas = new ArrayList<>();
 
     public Usuario(String nome, String email, String senha) {
+        if (nome == null || email == null || senha == null) {
+        throw new IllegalArgumentException("Todos os campos são obrigatórios.");
+    }
         this.nome = nome;
         this.email = email;
         this.senha = senha;

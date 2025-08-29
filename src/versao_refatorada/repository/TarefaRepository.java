@@ -1,23 +1,24 @@
 package versao_refatorada.repository;
 
-
 import java.util.HashMap;
 import java.util.Map;
 import versao_refatorada.model.Usuario;
 import versao_refatorada.model.Tarefa;
 
-// Repositório que armazena usuários e permite manipular tarefas.
-public class TarefaRepository {
+public class TarefaRepository implements ITarefaRepository {
     private Map<String, Usuario> usuarios = new HashMap<>();
 
+    @Override
     public void salvarUsuario(Usuario usuario) {
         usuarios.put(usuario.getEmail(), usuario);
     }
 
+    @Override
     public Usuario buscarUsuarioPorEmail(String email) {
         return usuarios.get(email);
     }
 
+    @Override
     public void adicionarTarefa(String email, Tarefa tarefa) {
         Usuario usuario = buscarUsuarioPorEmail(email);
         if (usuario != null) {
@@ -25,6 +26,7 @@ public class TarefaRepository {
         }
     }
 
+    @Override
     public void listarTarefas(String email) {
         Usuario usuario = buscarUsuarioPorEmail(email);
         if (usuario != null) {

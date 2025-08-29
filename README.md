@@ -6,7 +6,7 @@ Projeto desenvolvido para demonstrar a diferença entre uma implementação mal 
 
 ## Objetivo
 
-Este projeto tem como finalidade ilustrar a evolução de um sistema de gerenciamento de tarefas, partindo de uma versão inicial com alto acoplamento e baixa coesão, até uma versão refatorada com separação clara de responsabilidades e arquitetura modular.
+Este projeto tem como finalidade ilustrar a evolução de um sistema de gerenciamento de tarefas, partindo de uma versão inicial com alto acoplamento e baixa coesão, até uma versão refatorada com separação clara de responsabilidades, aplicação dos princípios SOLID e uso do padrão Service Locator com inicialização centralizada (init()), além da introdução da interface ITarefaRepository para promover inversão de dependência.
 
 ---
 
@@ -61,6 +61,7 @@ cd src/versao_refatorada
 # Compile os arquivos Java (ajuste os nomes conforme sua estrutura)
 javac injector/ServiceLocator.java \
       service/TarefaService.java \
+      repository/ITarefaRepository.java \
       repository/TarefaRepository.java \
       model/Usuario.java \
       model/Tarefa.java \

@@ -13,7 +13,7 @@ public class App {
         gerenciador.adicionarTarefa("Hildemar", "Fazer a documentação", "Criar um Relatório e o arquivo README\n");
         gerenciador.adicionarTarefa("Thiago", "Codificar", "Implementar o código refatorado.");
 
-        // Exibir resultados com enfeites
+        // Exibir resultados 
         System.out.println("\n============================================");
         System.out.println("             LISTAGEM DE TAREFAS  ");
         System.out.println("============================================\n");
