@@ -87,7 +87,14 @@ Os diagramas que ilustram a estrutura e evolução do projeto estão disponívei
 
 ## Relatório Técnico
 
-O relatório técnico detalha o processo de desenvolvimento, análise das versões e justificativas para a refatoração. Você pode acessá-lo aqui:
+O relatório técnico detalha o processo de desenvolvimento, análise das versões e justificativas para a refatoração. 
 
 - [Relatório Técnico (PDF)](docs/relatorio_tecnico.pdf)
+
+---
+
+## Discentes 
+
+Hildemar Lemos de Santana Júnior, Kleberson de Jesus Sousa e Thiago Sampaio Santos 
+
 
